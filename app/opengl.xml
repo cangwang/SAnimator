@@ -1,4 +1,4 @@
-<mxfile modified="2020-03-05T03:24:20.138Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="fMhU44YqRD19n8WkaVax" version="12.7.9" type="github" pages="4">
+<mxfile modified="2020-03-05T03:38:35.735Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="-CSGfhfoPE4iioj0XWCb" version="12.7.9" type="github" pages="4">
   <diagram id="ks1jgpBtfwy5uJ1NPKyH" name="ç¸æºéé">
     <mxGraphModel dx="1412" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,6 +381,33 @@
         </mxCell>
         <mxCell id="vFA4Jha6BFVvO2OIneJl-5" value="linkProgram&lt;br&gt;链接到程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
           <mxGeometry x="91" y="581" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LFfDdSNtq2ANJ8Ki52O2-1" source="vFA4Jha6BFVvO2OIneJl-11" target="vFA4Jha6BFVvO2OIneJl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-11" value="glViewport&lt;br&gt;glClear&lt;br&gt;清屏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
+          <mxGeometry x="424" y="77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LFfDdSNtq2ANJ8Ki52O2-1" source="vFA4Jha6BFVvO2OIneJl-12" target="vFA4Jha6BFVvO2OIneJl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-12" value="glUseProgram&lt;br&gt;使用程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
+          <mxGeometry x="424" y="178" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LFfDdSNtq2ANJ8Ki52O2-1" source="vFA4Jha6BFVvO2OIneJl-13" target="vFA4Jha6BFVvO2OIneJl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-13" value="glVertexAttribPointer&lt;br&gt;输入参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
+          <mxGeometry x="424" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LFfDdSNtq2ANJ8Ki52O2-1" source="vFA4Jha6BFVvO2OIneJl-14" target="vFA4Jha6BFVvO2OIneJl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-14" value="glEnableVertexAttribArray&lt;br&gt;允许着色器读取GPU数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
+          <mxGeometry x="396" y="392" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFA4Jha6BFVvO2OIneJl-15" value="glDrawArrays&lt;br&gt;开始绘制三角形" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LFfDdSNtq2ANJ8Ki52O2-1">
+          <mxGeometry x="417" y="508" width="134" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
